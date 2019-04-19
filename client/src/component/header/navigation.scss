@@ -1,0 +1,22 @@
+@import "../common/main.scss";
+
+.navigation{
+background-color: $header-background;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+.nav-logo{
+  flex:1;
+}
+.nav-auth{
+  flex: 1;
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+h3{
+  flex:1;
+}
+}
+}
